@@ -1,0 +1,67 @@
+body{
+  background-image: url("../media/background.jpg");
+  height:100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+h1{
+  color:white;
+  text-align:center;
+  margin: 100px;
+  font-family: "Apple Chancery", cursive;
+  font-size: 4.0em;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8935b0, 0 0 40px #8935b0, 0 0 50px #8935b0, 0 0 60px #8935b0, 0 0 70px #8935b0;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #de96ff, 0 0 40px #de96ff, 0 0 50px #de96ff, 0 0 60px #de96ff, 0 0 70px #de96ff, 0 0 80px #de96ff;
+  }
+}
+th{
+  color: white;
+  font-family: "Apple Chancery", cursive;
+  font-size: 1.7em;
+  text-shadow: 1px 1px #de96ff;
+
+}
+.picture{
+  border: hidden;
+  border-bottom: 2px dotted white;
+  background-color: transparent;
+}
+.features{
+  background-color: rgba(255, 255, 255, 0.4);
+}
+span{
+  font-size: 0.8em;
+}
+td{
+  color:white;
+  text-align:center;
+  font-family: "Apple Chancery", cursive;
+  font-size: 1.3em;
+  text-shadow: 1px 1px black;
+  border: 2px dotted white;
+  background-color: rgba(255,255,255,0.2);
+  padding: 10px;
+}
+.saturn{
+  width:350px;
+}
+.venus{
+  width:200px;
+}
+img{
+  width:250px;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  border-collapse: collapse;
+}
