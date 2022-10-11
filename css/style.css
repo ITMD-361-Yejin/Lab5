@@ -22,10 +22,10 @@ h1{
     }
   }
 th{
-  color: white;
+  color: #eecfff;
   font-family: "Apple Chancery", cursive;
-  font-size: 1.7em;
-  text-shadow: 1px 1px #de96ff;
+  font-size: 1.8em;
+  text-shadow: 3px 3px #2f173b;
 }
 .picture{
   border: hidden;
@@ -45,16 +45,17 @@ span{
   font-size: 0.8em;
 }
 .features{
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 td{
-  color:white;
+  color:#2f173b;
   text-align:center;
   font-family: "Apple Chancery", cursive;
   font-size: 1.3em;
-  text-shadow: 1px 1px black;
+  font-weight: 900;
+  text-shadow: 1px 1px #eecfff;
   border: 2px dotted white;
-  background-color: rgba(255,255,255,0.2);
+  background-color: rgba(255,255,255,0.3);
   padding: 10px;
 }
 table{
