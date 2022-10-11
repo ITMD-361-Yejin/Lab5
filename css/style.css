@@ -13,32 +13,39 @@ h1{
   font-size: 4.0em;
   animation: glow 1s ease-in-out infinite alternate;
 }
-@-webkit-keyframes glow {
-  from {
+  @-webkit-keyframes glow {
+    from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8935b0, 0 0 40px #8935b0, 0 0 50px #8935b0, 0 0 60px #8935b0, 0 0 70px #8935b0;
-  }
-
-  to {
+    }
+    to {
     text-shadow: 0 0 20px #fff, 0 0 30px #de96ff, 0 0 40px #de96ff, 0 0 50px #de96ff, 0 0 60px #de96ff, 0 0 70px #de96ff, 0 0 80px #de96ff;
+    }
   }
-}
 th{
   color: white;
   font-family: "Apple Chancery", cursive;
   font-size: 1.7em;
   text-shadow: 1px 1px #de96ff;
-
 }
 .picture{
   border: hidden;
   border-bottom: 2px dotted white;
   background-color: transparent;
 }
-.features{
-  background-color: rgba(255, 255, 255, 0.4);
+#saturn{
+  width:350px;
+}
+#venus{
+  width:200px;
+}
+img{
+  width:250px;
 }
 span{
   font-size: 0.8em;
+}
+.features{
+  background-color: rgba(255, 255, 255, 0.4);
 }
 td{
   color:white;
@@ -49,15 +56,6 @@ td{
   border: 2px dotted white;
   background-color: rgba(255,255,255,0.2);
   padding: 10px;
-}
-.saturn{
-  width:350px;
-}
-.venus{
-  width:200px;
-}
-img{
-  width:250px;
 }
 table{
   margin-left: auto;
